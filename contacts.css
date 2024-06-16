@@ -1,0 +1,138 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: "Quicksand", sans-serif;
+  cursor: none;
+}
+
+/** HEADER **/
+#header-nav {
+  border-radius: 0;
+  border: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  margin-right: 30px;
+  display: flex;
+  list-style: none;
+}
+
+.item{
+  font-size: 2rem;
+}
+
+
+.topnav a {
+  float: right;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #CE2E3F;
+}
+
+.topnav a.active {
+  color: #CE2E3F;
+}
+
+header {
+display: flex;
+/* justify-content: space-between; */
+justify-content: center;
+align-items: center;
+height: 80px; /* adjust the height as needed */
+}
+
+.title {
+display: flex;
+align-items: center;
+}
+
+img {
+max-width: 10%;
+max-height: 10%;
+margin-left: 30px;
+margin-right: 20px;
+}
+
+.main{
+height: 200vh;
+}
+
+.info {
+  margin-left: 15%;
+  margin-top: 40px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.info h2 a{
+  /* text-decoration: none; */
+  color: inherit;
+}
+
+
+.cursor {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.outer {
+  border: 1px solid #CE2E3F70;
+}
+
+.inner{
+  background: #CE2E3F20;
+  /* transition: 500ms ease-out; */
+}
+
+
+/* FOOTER */
+.footer {
+padding: 20px; /* Some padding */
+text-align: center; /* Center text*/
+line-height: 1.0;
+}
+
+.time-zone-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 10px;
+}
+
+.time-zone-item {
+margin-bottom: 5px;
+}
+
+.footer a img {
+  width: 25px;
+  height: auto;
+  margin-right: 10px;
+}
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+.title {
+  flex-direction: column;
+}
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+.topnav a {
+  float: none;
+  width: 100%;
+}
+}

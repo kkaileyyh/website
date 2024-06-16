@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.typekit.net/ezb4ubz.css">
+        <script>
+            (function(d) {
+              var config = {
+                kitId: 'xwo4qzk',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+          </script>
+        <title>Who's Kailey?</title>
+        <link rel = "stylesheet" href = "about.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="header">
+                <a href="index.html"><img src="ji_front.png"></a>
+                <button id = "myBtn">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                    </svg> -->
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 9.5H3M21 4.5H3M21 14.5H3M21 19.5H3"/>
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <div id = "myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <nav class="nav">
+                  <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li><a href="Resume_Kailey Hwang.pdf">Resume</a></li>
+                  </ul>
+                </nav>
+            </div>
+        </div>
+
+
+        <div class="scrolling-gallery">
+            <img src="1.jpg">
+            <img src="2.jpg">
+            <img src="3.jpg">
+            <img src="4.jpg">
+            <img src="5.jpg">
+            <img src="6.jpg">
+            <img src="7.jpg">
+        </div>
+
+        <div class = "scroll-txt">
+            <h1>Scroll down to <br>learn about me!</h1>
+            <svg width="70" height="70" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.59 8.29492L12 12.8749L7.41 8.29492L6 9.70492L12 15.7049L18 9.70492L16.59 8.29492Z" fill="black"/>
+            </svg>
+        </div>
+
+        <div class = "about">
+            <h1>ABOUT</h1>
+            <hr>
+            <div class="profile-container">
+                <img src= "file.jpg" alt="profile_img">
+                <div class = "about-content">
+                    <h1>Kailey Hwang</h1>
+                    <div class="detail">
+                        University of Michigan - Ann Arbor
+                        <div class = "detail-major">
+                        B.S. Computer Science
+                        <br>B.S. UX Design (Minor)
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class = "about-plus">
+            <h1>What I like to do in my free time!</h1>
+            Baking + Watching Netflix
+            <h1>Hometown</h1>
+            Bundang, South Korea 🇰🇷
+        </div>
+
+        <div class="about-img">
+            <div class="about-left">
+              <img src="sparkle.png" alt="Left Image">
+            </div>
+            <div class="about-right">
+              <div class="about-right-top">
+                <img src="sparkle.png" alt="Top Right Image">
+              </div>
+              <div class="about-right-bottom">
+                <img src="sparkle.png" alt="Bottom Right Image">
+              </div>
+            </div>
+          </div>
+
+          <section class = "contact">
+            <h2>Let's Get <br>Connected!</h2>
+
+            <form action = "#">
+                <div class = "input-box">
+                    <div class = "input-field field">
+                        <input type="text" placeholder="Full Name" id = "name" class = "item" autocomplete = "off">
+                        <div class = "error-txt">Full Name can't be blank</div>
+                    </div>
+                    <div class = "input-field field">
+                        <input type="text" placeholder="Your Email" id = "email" class = "item" autocomplete = "off">
+                        <div class = "error-txt email">Email address can't be blank</div>
+                    </div>
+                    <div class = "input-field field">
+                        <input type="text" placeholder="Subject" id = "subject" class = "item" autocomplete = "off">
+                        <div class = "error-txt">Subject can't be blank</div>
+                    </div>
+
+                    <div class = "textarea-field field">
+                        <textarea name = "" id = "message" placeholder = "Your Message" class = "item" autocomplete = "off"></textarea>
+                        <div class = "error-txt">Message can't be blank</div>
+                    </div>
+
+                    <button type = "submit"> Send Message
+                        <!-- <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M64.9998 21.6667L57.3623 29.3042L87.5873 59.5834H21.6665V70.4168H87.5873L57.3623 100.696L64.9998 108.333L108.333 65.0001L64.9998 21.6667Z" fill="black"/>
+                        </svg> -->
+                    </button>
+
+                </div>
+            </form>
+          </section>
+
+        <div class="footer">
+            <a href="https://www.linkedin.com/in/junginhwang/">
+                <img src="LI-In-Bug.png" alt="LinkedIn Logo" >
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#000">
+                    <path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.27 20.1H3.65V9.24h3.62V20.1zM5.47 7.76h-.03c-1.22 0-2-.83-2-1.87 0-1.06.8-1.87 2.05-1.87 1.24 0 2 .8 2.02 1.87 0 1.04-.78 1.87-2.05 1.87zM20.34 20.1h-3.63v-5.8c0-1.45-.52-2.45-1.83-2.45-1 0-1.6.67-1.87 1.32-.1.23-.11.55-.11.88v6.05H9.28s.05-9.82 0-10.84h3.63v1.54a3.6 3.6 0 0 1 3.26-1.8c2.39 0 4.18 1.56 4.18 4.89v6.21z"/>
+                </svg> -->
+            </a>
+            <a href = "mailto: jungin@umich.edu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+            </a>
+
+            <p>Ann Arbor, MI, USA | Seoul, South Korea</p>
+            <div class="time-zone-container">
+                <div class="time-zone-item">
+                    <span id="easternTime"></span> <span> | </span> <span id="koreanTime"></span>
+                </div>
+            </div>
+            <footer>
+                <p class = "credit">&copy; 2024 Kailey Hwang. All rights reserved.</p>
+            </footer>
+        </div>
+
+        
+        <!-- CURSOR -->
+        <div class="cursor inner"></div>
+        <div class="cursor outer"></div>
+
+
+        <script src="script.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </body>
+</html>
+
+
+
