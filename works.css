@@ -275,3 +275,11 @@ html, body {
   text-decoration: none;
   color: inherit;
 }
+
+.right-rec image {
+  clip-path: url(#clip-path);
+}
+
+.clip-path {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
