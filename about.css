@@ -213,7 +213,7 @@ html, body {
 .scrolling-gallery {
   margin-top: 20px;
   display: grid;
-  grid-template-columns: repeat(7, 1fr); /* adjust the number of columns to match the number of images */
+  grid-template-columns: repeat(9, 1fr); /* adjust the number of columns to match the number of images */
   grid-column-gap: 40px; 
   overflow-x: auto;
   white-space: nowrap;
