@@ -230,5 +230,21 @@ html, body {
   color:#888;
 }
 
+@media only screen and (max-width: 390px){
+  .main{
+    font-size: 20px;
+  }
 
+  .header img{
+    margin-right: 16%;
+  }
 
+  #myBtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer; 
+    margin-right: 8%;
+    width: 20;
+    height: 20;
+  }
+}
