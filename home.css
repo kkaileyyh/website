@@ -240,11 +240,11 @@ html, body {
   }
 
   #myBtn {
-    background-color: transparent;
-    border: none;
-    cursor: pointer; 
-    margin-right: 8%;
-    width: 20;
-    height: 20;
+    transform: scale(0.8); 
+    padding-right: 7%;
+  }
+
+  .footer {
+    padding: 0 ;
   }
 }

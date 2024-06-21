@@ -266,7 +266,6 @@ html, body {
   margin-bottom: 10%;
 }
 
-
 .about-content {
   flex: 1;
   margin-left: 5%;
@@ -494,3 +493,69 @@ form button:hover{
   padding: 10px;
   font-size: 16px;
 } 
+
+
+@media only screen and (max-width: 390px){
+  .scroll-txt{
+    font-size: 13px;
+  }
+
+  .header img{
+    margin-right: 16%;
+  }
+
+  #myBtn {
+    transform: scale(0.8); 
+    padding-right: 7%;
+  }
+
+  .footer {
+    padding: 0 ;
+  }
+
+  .about h1{
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+
+  .about hr{
+    width: 340px;
+  }
+
+  .profile-container {
+    margin: 0;
+  }
+
+  .about img {
+    border-radius: 50%;
+    height: 200px;
+    margin: 5px auto 0 30px;  
+    /* top right bottom left */
+  }
+
+  .about-content {
+    margin-left: 2;
+  }
+
+  .about-content h1{
+    font-size: 15px;
+    padding-bottom: 5%;
+  }
+  .detail {
+    font-size: 8px;
+    letter-spacing: 3%;
+    line-height: 140%;
+  }
+  
+  .detail-major {
+    font-size: 8px;
+  } 
+
+  .about-plus{
+    padding: 10%;
+    margin-left: 0%;
+  }
+  .about-plus h1{
+    font-size: 20px;
+  }
+}
