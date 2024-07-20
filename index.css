@@ -70,7 +70,7 @@ html, body {
 
 .inner{
   background: #CE2E3F20;
-  /* transition: 500ms ease-out; */
+  transition: 500ms ease-out;
 }
 
 
@@ -234,9 +234,24 @@ html, body {
   .main{
     font-size: 20px;
   }
+  
+  .header a{
+    margin-right: 10%;
+    margin-left: 30%;
+    align-self: center; 
+    flex: 1;
+  }
 
-  .header img{
-    margin-right: 16%;
+  .header img {
+    width: 90px;
+    height: 60px;
+  }
+
+  .header a{
+    margin-right: 10%;
+    margin-left: 30%;
+    align-self: center; 
+    flex: 1;
   }
 
   #myBtn {

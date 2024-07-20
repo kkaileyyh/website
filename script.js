@@ -29,7 +29,6 @@ window.addEventListener("mousemove", (e) => {
             el.classList.remove("hover");
         })
     })
-    
 
     cursor.forEach(el => {
         el.style.left = `${x}px`;

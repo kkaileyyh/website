@@ -50,7 +50,7 @@ html, body {
   
   .inner{
     background: #CE2E3F20;
-    /* transition: 500ms ease-out; */
+    transition: 500ms ease-out;
   }
   
   
