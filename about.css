@@ -549,26 +549,27 @@ form button:hover{
   }
 
   .about-content {
-    margin-top: 20px;
+    margin: 20px 0 0 0;
   }
 
   .about-content h1{
-    font-size: 20px;
+    font-size: 25px;
     padding-bottom: 3%;
-    font-weight: bolder;
+    /* font-weight: bolder; */
     text-align: center;
     margin: 0;
   }
 
   .detail {
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
     line-height: 140%;
     margin: 0;
   }
   
   .detail-major {
-    font-size: 10px;
+    font-size: 15px;
+    padding-top: 3%;
   } 
 
   .about-plus{
