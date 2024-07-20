@@ -243,11 +243,17 @@ html, body {
 }
 
 .left-rec,.right-rec {
-  margin: 20px;
+  /* margin: 20px;
   margin-bottom: 10px;
-  flex-basis: 45%; 
+  flex-basis: 45%;  */
+  margin: 0 auto;
+  display: inline-block;
 }
 
+.row2-first, .row2-second, .row2-third{
+  margin: 0 auto;
+  display: inline-block;
+}
 
 .works-content {
   text-align: left;
