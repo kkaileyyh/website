@@ -32,6 +32,8 @@ html, body {
   border: none;
   cursor: pointer; 
   margin-right: 3%;
+  width: 5vw;
+  height: auto; 
 }
 
 /* CURSOR */
