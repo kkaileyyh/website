@@ -18,8 +18,12 @@ html, body {
 } 
 
 .header img {
-  width: 110px;
+  width: 8vw;
+  min-width: 80px;
   height: auto;
+  margin-right: 40%;
+  align-content: center; 
+  margin: 0;
 }
 
 .header a{
@@ -33,8 +37,12 @@ html, body {
   border: none;
   cursor: pointer; 
   margin-right: 3%;
-  width: 5vw;
-  height: auto; 
+}
+
+#myBtn svg {
+  width: 3vw;
+  height: auto;
+  min-width: 35px;
 }
 
 /* CURSOR */
@@ -483,13 +491,6 @@ form button:hover{
   color: white;
 }
 
-/* form button{
-  margin-left: 82%;
-  margin-top: 20px;
-  border: none;
-  background: transparent;
-} */
-
 #autoresizing {
   overflow: hidden;
   padding: 10px;
@@ -498,6 +499,10 @@ form button:hover{
 
 
 @media only screen and (max-width: 390px){
+  html{
+    height: 200vh;
+  }
+
   .cursor {
     display: none;
   }
@@ -544,6 +549,7 @@ form button:hover{
     padding-bottom: 10%;
   }
 
+
   .about img {
     border-radius: 50%;
     height: 200px;
@@ -557,7 +563,7 @@ form button:hover{
   .about-content h1{
     font-size: 25px;
     padding-bottom: 3%;
-    /* font-weight: bolder; */
+    letter-spacing: 2px;
     text-align: center;
     margin: 0;
   }
@@ -567,6 +573,7 @@ form button:hover{
     text-align: center;
     line-height: 140%;
     margin: 0;
+    letter-spacing: 1px;
   }
   
   .detail-major {
@@ -577,111 +584,47 @@ form button:hover{
   .about-plus{
     padding: 10%;
     margin-left: 0%;
-  }
-  .about-plus{
-    font-size: 10px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    /* display: none;  */
+    /* 굳이 넣을까 싶음 */
   }
 
   .about-img {
     display: none;
   }
+
+  .contact {
+    margin-top: 10%;
+  }
   
   .contact h2{
-    font-size: 30px;
+    font-size: 25px;
     font-style: bold;
     text-align: left;
-    margin-top: 20%;
-    margin-left: 13%;
+    margin: 0;
+    margin-left: 10%;
     justify-content: center;
   }
 
-  form .input-box{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  .input-box .input-field{
-    width: 48.5%;
-  }
-  
-  .input-field {
-    width: 45%;  
-    margin: 10px;
-  }
-  
-  .textarea-field {
-    width: 90%; 
-    margin: 10px;
-  }
-  
-  .field .item {
-    font-family: "Owners XXwide", sans-serif;
+  .contact form {
     width: 100%;
-    padding: 12px;
-    background: transparent; 
-    border: none;
-    border-bottom: 1px solid #000;
-    font-size: 16px;
-    color: #000;
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-  }
-  
-  .field .item::placeholder{
-    color: #333;
-    font-style: italic;
-    font-family: "Owners XXwide", sans-serif;
-  }
-  
-  /* 타이핑시 컬러 변경 */
-  .field .item:focus {
-    color: #CE2E3F; 
-  }
-  
-  .field .error-txt{
-    font-size: 14.5px;
-    color: #d93025;
     text-align: left;
-    margin: -5px 0 10px;
-    display: none;
   }
-  
-  .field.error .error-txt{
+
+  .input-field.field, .textarea-field.field{
+    margin-left: 10%;
+  }
+
+  .textarea-field.field{
+    width: 70%;
+  }
+
+  form button {
+    margin: 0px auto; 
     display: block;
-  }
-  
-  form .textarea-field .item{
-    resize: none;
-  }
-  
-  form .textarea-field .error-txt{
-    margin-top: -10px;
-  }
-  
-  
-  form button{
-    padding: 12px 20px;
-    background-color: #f2f2f2;
-    border: none;
-    outline: none;
-    border-radius: 6px;
-    font-family: "Owners XXwide", sans-serif;
-    font-size: 16px;
-    color: black;
-    letter-spacing: 1px;
-    font-weight: 600;
-    cursor: pointer;
-    margin-top: 20px;
-    margin-left: 70%;
-  
-    border: #171717;
-    border-radius: 4px;
-  } 
-  
-  form button:hover{
-    box-shadow: none;
-    background: #CE2E3F;
-    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
   }
 }
