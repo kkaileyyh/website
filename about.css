@@ -596,7 +596,7 @@ form button:hover{
   }
 
   .contact {
-    margin-top: 10%;
+    margin-top: 20%;
   }
   
   .contact h2{
@@ -625,6 +625,6 @@ form button:hover{
     margin: 0px auto; 
     display: block;
     padding: 6px 12px;
-    font-size: 14px;
+    font-size: 18px;
   }
 }
