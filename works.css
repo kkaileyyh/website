@@ -250,10 +250,10 @@ html, body {
   display: inline-block;
 }
 
-.row2-first, .row2-second, .row2-third{
+/* .row2-first, .row2-second, .row2-third{
   margin: 0 auto;
   display: inline-block;
-}
+} */
 
 .works-content {
   text-align: left;
